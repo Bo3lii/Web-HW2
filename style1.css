@@ -1,0 +1,101 @@
+body{
+background-color: #ede0d4;
+padding: 0;
+ margin: 0;
+ background: linear-gradient(90deg, rgba(233,181,133,1) 8%, rgba(242,196,145,1) 100%);
+}
+
+.header{
+background-color: #e6ccb2; 
+width: 100%;
+height: 10vh;
+margin: 0;
+padding: 0; 
+position: fixed;
+ top: 0; 
+ z-index: 3;
+}
+
+
+.container{ 
+ margin: 70px;
+ display: flex;  
+flex-wrap: wrap;
+justify-content: space-evenly;
+border-radius: 15%;
+align-items: center;
+
+}
+
+
+
+.cell{
+background-color:#d4a373;
+ width: 300px;
+height: 300px;
+ margin: 10px;
+display: flex;  
+flex-wrap: wrap;
+justify-content: center;
+border-radius: 15%;
+align-items: center;
+flex-direction: column;
+box-shadow: 10px 10px 5px #c7966a;
+/* position: relative; */
+}
+/* .cellback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0,5s ease   ;
+    background-color: #e5e5e5;
+}
+.cell:hover{
+transform: rotateY(180deg);
+}
+
+.thefront{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: black;
+}
+.theback{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: black;
+    transform:rotateY(180deg);
+} */
+
+
+.cell:hover{
+    cursor: pointer;
+}
+h2{
+text-align: center;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+}
+h1{
+margin: 0;
+text-align: center;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+}
+img{
+ width: 60%; height: 40%; 
+border-radius: 12px;
+}
+
+p{
+    font-family: 'League Gothic', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+
+}

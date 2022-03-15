@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+body,html{ 
+    margin: 0;
+     padding: 0;
+height: 100%;    
+}
+
+.background{
+    background-image:url(./images/background.jpg); 
+    background-size:cover ;
+    background-position: center; 
+    height: 100%;
+    background-repeat: no-repeat;
+    
+} 
+
+.container{
+    color: #e6ccb2;
+    text-align: center;
+    padding-top: 200px;
+}
+
+    button{
+        background-color: #e5e5e5;
+        color: #14213d;
+        font-size: 24px;
+        border: 0;
+        border-radius:8px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+    button:hover{
+    background-color: #fca311;
+    }
+
+        
